@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2? family= Kanit:ital,wght@1,500 & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.subtitulo {
+    display: flex;
+    background-color: rgb(248, 249, 250);
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.fase1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .fase2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+.container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.imagenes p { 
+    text-align: center;
+}
+
+.redes {
+    background-color: black;
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .fase1 {
+      display: block;
+      text-align: center;
+    }
+  
+    .fase1 img{
+      padding: 1rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .fase2 {
+      display: block;
+      text-align: center;
+    }
+  
+    .fase2 img{
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+      .fase1 {
+        display: block;
+        text-align: center;
+      }
+    }
+  
+  @media screen and (max-width: 768px) {
+      .fase2 {
+        display: block;
+        text-align: center;
+      }
+    }
