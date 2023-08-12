@@ -1,0 +1,64 @@
+.main {
+    margin: 2rem;
+    padding: 1rem;
+  
+    p {
+      display: flex;
+      text-align: center;
+      padding: 1.5rem;
+    }
+  
+    .contenedor {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      grid-template-areas: "caja1 caja2 caja3";
+
+      @include mobile{
+        display: block;
+        padding: 1rem;
+         
+        img{
+          padding: 1rem;
+        }
+      }
+
+      @include tablet{
+        display: block;
+        padding: 1rem;
+
+        img{
+          padding: 1rem;
+        }
+      }
+  
+      div {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  
+    .mitad2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+
+      @include mobile{
+        display: block;
+        text-align: center;
+        align-items: center;
+      }
+
+
+      @include tablet {
+        display: block;
+        text-align: center;
+        align-items: center;
+      }
+    }
+    
+    .subtitulo {
+      padding: 2rem;
+    }
+  
+    }
