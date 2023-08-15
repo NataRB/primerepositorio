@@ -61,21 +61,21 @@
   font-size: 15px;
 }
 
-.redes {
+.redes1 {
   background-color: rgb(248, 249, 250);
   padding: 1.5rem;
 }
-.redes .container {
+.redes1 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
 }
-.redes .container img {
+.redes1 .container img {
   transition: transform 0.3s ease-in-out;
 }
-.redes .container img:hover {
+.redes1 .container img:hover {
   transform: scale(1.1);
 }
 
@@ -144,24 +144,23 @@
   }
 }
 
-.redes1 {
-  background-color: rgb(248, 249, 250);
+.redes {
+  background: rgb(248, 249, 250);
 }
-.redes1 .container {
-  background-color: rgb(248, 249, 250);
+.redes .container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
   padding: 1.5rem;
 }
-.redes1 .container img {
+.redes .container img {
   transition: transform 0.3s ease-in-out;
 }
-.redes1 .container img:hover {
+.redes .container img:hover {
   transform: scale(1.1);
 }
-.redes1 .Copyright {
+.redes .Copyright {
   text-align: center;
   font-size: 20px;
 }
@@ -233,23 +232,23 @@
   padding: 2rem;
 }
 
-.redes {
+.redes3 {
   background-color: rgb(248, 249, 250);
   padding: 1.5rem;
 }
-.redes .container {
+.redes3 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
 }
-.redes .container img {
+.redes3 .container img {
   transition: transform 0.3s ease-in-out;
 }
-.redes .container img:hover {
+.redes3 .container img:hover {
   transform: scale(1.1);
 }
-.redes .container p {
+.redes3 .container p {
   text-align: center;
 }/*# sourceMappingURL=main.css.map */
