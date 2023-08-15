@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem;
+    padding: 2rem;
 
     @include mobile{
       flex-direction: column;
@@ -40,7 +40,7 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem;
+    padding: 2rem;
   
     p {
       text-align: center;
