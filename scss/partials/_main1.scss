@@ -27,6 +27,7 @@
   
       img{
         transition: transform 0.3s ease-in-out;
+        border-radius: 15px;
       }
   
       img:hover{
@@ -36,9 +37,13 @@
       p {
         color: black;
           text-align: center;
+          font-size: 17px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
           text-decoration: none;
-          font-size: 15px;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+
+      P:hover{
+        color: #790940;
       }
     }
     .container {

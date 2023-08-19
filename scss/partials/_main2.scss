@@ -5,6 +5,23 @@
     padding: 1.5rem;
   }
   
+  .boton-flotante {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    padding: 10px 20px;
+
+    img{
+      min-height: 43px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover{
+      transform: scale(1.1);
+    }
+  
+  }
+
   .fase1 {
     display: flex;
     align-items: center;
@@ -24,10 +41,12 @@
   
     p {
       text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
   
     img{
       transition: transform 0.3s ease-in-out;
+      border-radius: 15px;
     }
   
     img:hover{
@@ -44,9 +63,11 @@
   
     p {
       text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     img{
       transition: transform 0.3s ease-in-out;
+      border-radius: 15px;
     }
   
     img:hover{

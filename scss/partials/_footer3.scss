@@ -1,5 +1,6 @@
 .redes3 {
-    background-color:  rgb(248, 249, 250);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,64,1) 35%, rgba(0,212,255,1) 100%);
     padding: 1.5rem;
   
     .container {
@@ -16,9 +17,14 @@
       img:hover{
         transform: scale(1.1);
       }
+
+      h6{
+        color: black;
+        font-size: 25px;
+      }
     
       p {
-        text-align: center;
+        color: black;
       }
     }
   }
