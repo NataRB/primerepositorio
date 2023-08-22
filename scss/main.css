@@ -23,6 +23,18 @@
   gap: 2rem;
   padding: 1.5rem;
 }
+.mitad1 .Secciones .link-secciones {
+  text-align: center;
+}
+.mitad1 .Secciones .link-secciones a {
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.mitad1 .Secciones .link-secciones a:hover {
+  color: #790940;
+}
 @media screen and (max-width: 480px) {
   .mitad1 .Secciones {
     flex-direction: column;
@@ -39,16 +51,6 @@
 }
 .mitad1 .Secciones img:hover {
   transform: translateY(3px);
-}
-.mitad1 .Secciones p {
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  font-size: 17px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.mitad1 .Secciones P:hover {
-  color: #790940;
 }
 .mitad1 .container {
   background-color: rgb(248, 249, 250);
